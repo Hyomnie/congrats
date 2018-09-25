@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="250dp"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:padding="5dp">
+
+
+    <LinearLayout
+
+        android:layout_width="239dp"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:weightSum="5">
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="생리 시작" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="생리 종료" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:weightSum="5">
+
+
+        <TextView
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1.5"
+
+            android:gravity="center"
+
+            android:text="증상"
+
+            android:textSize="12sp" />
+
+
+        <RadioGroup
+
+            android:id="@+id/dialog_rg"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="3.5"
+
+            android:orientation="vertical">
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_korea"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="아랫배 통증"
+
+                android:textSize="12sp" />
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_canada"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="소화불량"
+
+                android:textSize="12sp" />
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_france"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="식욕 상승"
+
+                android:textSize="12sp" />
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_mexico"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="MEXICO"
+
+                android:textSize="12sp" />
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_poland"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="POLAND"
+
+                android:textSize="12sp" />
+
+
+            <RadioButton
+
+                android:id="@+id/dialog_rb_saudi"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="SAUDI ARABIA"
+
+                android:textSize="12sp" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

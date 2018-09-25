@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#6b5c97</color>
+
+    <color name="colorPrimaryDark">#6b5c97</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="sparklinggrape"> #773376 </color>
+
+    <color name="xenonblue"> #BFC8E0 </color>
+
+    <color name="Gardenia">#F0ECE1</color>
+
+    <color name="LettuceGreen"> #BED38E </color>
+
+    <color name="CherryBlossom">#f6cfe1</color>
+
+    <color name="prismPink"> #EFA5C8 </color>
+
+    <color name="chateauRose"> #D2738F </color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white_greyish">#EEEEEE</color>
+
+    <color name="button_selectorcolor">#9E9E9E</color>
+
+    <color name="Gray">#808080</color>
+
+    <color name="SlateGray">#708090</color>
+</resources>

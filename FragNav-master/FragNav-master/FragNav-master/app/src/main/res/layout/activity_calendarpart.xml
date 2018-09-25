@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background4"
+    android:clipToPadding="false"
+    tools:context="com.ncapdevi.sample.fragments.RecentsFragment">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/myrect"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:mcv_selectionColor="#BF6b5c97"
+        app:mcv_showOtherDates="all"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/myrect"
+        android:elevation="8dp"
+        >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:elevation="8dp"
+        android:text="Some text"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:paddingLeft="5dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:elevation="8dp"
+        android:text="Some text"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="28sp"
+        android:layout_below="@+id/calendarView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6sp"
+        android:layout_marginTop="6sp"
+        android:elevation="8dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/inputPeriod"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/roundbutton"
+        android:elevation="16dp"
+        android:onClick="onClick"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:stateListAnimator="@null"
+        />
+</RelativeLayout>

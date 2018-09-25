@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_recents"
+        id="@+id/bb_menu_recents"
+        title="캘린더"
+        />
+    <tab
+        icon="@drawable/barchart"
+        id="@+id/bb_menu_favorites"
+        title="정리함"
+        />
+
+    <tab
+        icon="@drawable/ic_friends"
+        id="@+id/bb_menu_friends"
+        title="영상자료"
+        />
+
+    <tab
+        icon="@drawable/ic_nearby"
+        id="@+id/bb_menu_nearby"
+        title="지도"
+        />
+</tabs>

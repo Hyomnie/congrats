@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background4"
+    android:clipToPadding="false"
+    tools:context="com.ncapdevi.sample.fragments.FriendsFragment">
+
+    <RelativeLayout
+        android:id="@+id/charbg"
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/myrect"
+        android:elevation="8dp"></RelativeLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/tvContent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="7dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#00aaff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_width="135dp"
+        android:layout_height="28sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_alignLeft="@+id/charbg"
+        android:layout_alignStart="@+id/charbg"
+        android:layout_below="@+id/charbg"
+        android:elevation="8dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_width="135dp"
+        android:layout_height="28sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_alignRight="@+id/charbg"
+        android:layout_below="@+id/charbg"
+        android:elevation="8dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_alignLeft="@+id/pieChart1"
+        android:layout_alignStart="@+id/pieChart1"
+        android:layout_alignTop="@+id/pieChart2"
+        android:background="@drawable/myrect"
+        android:elevation="8dp"
+        android:id="@+id/relativeLayout"></RelativeLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart2"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignBottom="@+id/pieChart1"
+        android:layout_alignEnd="@+id/charbg"
+        android:layout_alignRight="@+id/charbg"
+        android:layout_marginTop="20sp"
+        android:elevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:elevation="8dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="331dp" />
+
+</RelativeLayout>

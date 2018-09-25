@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp">
+
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/first"
+            android:layout_alignEnd="@+id/first"
+            android:layout_alignRight="@+id/first"
+            android:layout_marginTop="40dp"
+            android:elevation="8dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imgView"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:elevation="8dp"
+            android:paddingLeft="30dp"
+            android:text="[질앤존슨] 매우 현실적인 부착형 생리대 착용법" />
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/i2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:elevation="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="[질앤존슨] 매우 현실적인 삽입형 생리대 착용법" />
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/second"
+            android:layout_alignLeft="@+id/second"
+            android:layout_alignStart="@+id/second"
+            android:layout_marginTop="190dp"
+            android:elevation="8dp" />
+
+        <RelativeLayout
+            android:id="@+id/third"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/third"
+            android:layout_alignEnd="@+id/third"
+            android:layout_alignRight="@+id/third"
+            android:layout_marginTop="340dp"
+            android:elevation="8dp" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/i3"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:elevation="8dp"
+            android:paddingLeft="30dp"
+            android:text="초경을 앞둔 아이에게 생리를 설명한다면 [스튜디오V]" />
+
+
+        <RelativeLayout
+            android:id="@+id/fourth"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/i3"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/fourth"
+            android:layout_alignLeft="@+id/fourth"
+            android:layout_alignStart="@+id/fourth"
+            android:elevation="8dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/i4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:elevation="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="여성 운동선수들의 생리 이야기 [스튜디오V]" />
+
+        <RelativeLayout
+            android:id="@+id/fifth"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="640dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/fifth"
+            android:layout_alignEnd="@+id/fifth"
+            android:layout_alignRight="@+id/fifth"
+            android:layout_marginTop="340dp"
+            android:elevation="8dp" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:elevation="8dp"
+            android:paddingLeft="30dp"
+            android:layout_marginBottom="24dp"
+            android:layout_alignBottom="@+id/i5"
+            android:text="왜 우리는 생리대만 쓰게 되었을까? [스튜디오 V]" />
+
+
+        <RelativeLayout
+            android:id="@+id/sixth"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/myrect"
+            android:elevation="8dp"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/sixth"
+            android:layout_alignLeft="@+id/sixth"
+            android:layout_alignStart="@+id/sixth"
+            android:layout_marginTop="790dp"
+            android:elevation="8dp" />
+
+
+        <TextView
+            android:id="@+id/textview9"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/i6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:elevation="8dp"
+            android:text="어느날 갑자기 첫생리를 시작했다면?★생리대사용법★ [브라운걸]" />
+
+    </RelativeLayout>
+</ScrollView>

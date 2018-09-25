@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // App dependencies
+
+    junitVersion = '4.12'
+    supportVersion = '27.0.2'
+    mockitoVersion = '2.13.0'
+    buildToolsVersion = '27.0.3'
+    minSdkVersion = 14
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+}
